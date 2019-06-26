@@ -1,0 +1,14 @@
+body {
+    background-color: #191A1D;
+    margin: 97px 0px 0px 0px;
+}
+
+.navigation-wrapper {
+    background-color: black;
+    padding: 27px;
+}
+
+.navigation-wrapper > .banner-image img {
+    width: 209px;
+    height: 100%;
+}
