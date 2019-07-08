@@ -1,14 +1,117 @@
 body {
     background-color: #191A1D;
-    margin: 97px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 .navigation-wrapper {
     background-color: black;
-    padding: 27px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 20px 13px 20px;
+    margin: 0px 0px -20px 0px;
 }
 
-.navigation-wrapper > .banner-image img {
-    width: 209px;
-    height: 100%;
+.navigation-wrapper > .left-column > .banner-image img {
+    width: 135px;
+    height: 25px;
+    padding-top: 10px;
+    padding-right: 40px;
 }
+
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+    width: 100%;
+    min-width: 346.781px;
+    margin: 0px;
+    align-items: top;
+}
+
+.navigation-wrapper > .center-column > .text p {
+    display: grid;
+    justify-content: left;
+    grid-gap: 10px;
+    margin: 0px;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper {
+    display: flex;
+    justify-content: space-between, left;
+    align-items: center;
+}
+
+.navigation-wrapper > .center-column > .text p {
+    color: #f4e17f;
+    font-size: 14px;
+    margin: none;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .nav-link a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 0px 10px 0px 0px;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .Spark > .nav-link a {
+    color: #7b7e8c;
+    text-decoration: none;
+}
+
+.navigation-wrapper > .right-column > .btn-wrapper button {
+    background: #36383F;
+    color: white;
+    font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+    -webkit-appearance: none;
+    font-size: 1rem;
+    text-shadow: none;
+    line-height: 1.2;
+    display: inline-block;
+    outline: 0;
+    padding: 10px 16px;
+    margin: 5px 10px 0 0;
+    position: relative;
+    border-radius: 3px;
+    border: 3px solid transparent;
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    text-align: center;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+.navigation-wrapper > .right-column > .btn-wrapper > .btn i {
+    color: #47cf73;
+}
+
+.navigation-wrapper > .right-column > .btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 341.219px;
+}
+
+.navigation-wrapper > .right-column > .btn-wrapper > .icon i {
+    color: #7b7e8c;
+    width: 25px;
+    height: 24.97px;
+    font-size: 27px;
+    padding: 10px;
+    padding-right: 20px;
+}
+
+.center-page > .first p {
+    color: rgba(245, 243, 243, 0.897);
+}
+
+.center-page > .second p {
+    color: #7b7e8c;
+}
+
+/* gradient code for css class */
+
+    background-image: -webkit-radial-gradient(left top, ellipse farthest-side, #36383f 30%, #000000 140%);
